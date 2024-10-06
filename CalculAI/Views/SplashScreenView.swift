@@ -35,10 +35,9 @@ struct SplashScreenView: View {
                     .fontWeight(.bold)
                     .foregroundColor(.white)
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity) // Expande para o tamanho da tela
-            .background(.black) // Define o fundo como preto
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.black)
             .onAppear {
-                // Timer para navegar para a próxima view
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                     withAnimation {
                         self.isActive = true

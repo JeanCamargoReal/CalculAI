@@ -12,8 +12,7 @@ struct ContentView: View {
         VStack {
             ShortcutView(iconName: "fork.knife", title: "Alimentos", backgroundColor: 0x1C1C1C)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity) // Expande para o tamanho da tela
-        .background(Color.black) // Define o fundo como preto
+        .frame(maxWidth: .infinity, maxHeight: .infinity)        .background(Color.black)
     }
 }
 
