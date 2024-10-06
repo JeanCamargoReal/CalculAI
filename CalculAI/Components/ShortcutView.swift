@@ -10,7 +10,7 @@ import SwiftUI
 struct ShortcutView: View {
     var iconName: String
     var title: String
-    var description: String
+    var description: String?
     var backgroundColor: Int
     var action: () -> Void
 
@@ -37,7 +37,7 @@ struct ShortcutView: View {
                     Spacer()
                     
                     HStack {
-                        Text(description)
+                        Text(description ?? "")
                             .font(.footnote)
                             .foregroundColor(.white)
                             .multilineTextAlignment(.leading)
