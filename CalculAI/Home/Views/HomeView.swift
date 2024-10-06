@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack {
-            ShortcutView(iconName: "fork.knife", title: "Alimentos", backgroundColor: 0x1C1C1C)
+            ShortcutView(iconName: "party.popper.fill", title: "Festas", description: "Calcule a quantide de comida comprar para cada festa.", backgroundColor: 0x1C1C1C) {}
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)        .background(Color.black)
     }
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }

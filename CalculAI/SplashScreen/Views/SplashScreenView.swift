@@ -15,7 +15,7 @@ struct SplashScreenView: View {
     var body: some View {
         if isActive {
             // Navega para a tela principal quando o tempo da Splash Screen acabar
-            ContentView()
+            HomeView()
         } else {
             VStack {
                 Image(systemName: "delta.circle")
