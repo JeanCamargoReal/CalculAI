@@ -27,22 +27,24 @@ private var titleHome: some View {
 
 private var tableGridView: some View {
     TableGridView(views: [
-        ShortcutView(iconName: "party.popper.fill",
-                     title: "Festas",
-                     description: "Calcule a quantide de comida que irá comprar para cada festa.",
+        ShortcutView(iconName: "person.3.sequence.fill",
+                     title: "CLT",
+                     description: "Faça calculos trabalhistas.",
                      backgroundColor: 0x1C1C1C) {},
         ShortcutView(iconName: "ruler",
                      title: "Conversões",
                      description: "Converta valores.",
                      backgroundColor: 0x1C1C1C) {},
+        ShortcutView(iconName: "party.popper.fill",
+                     title: "Festas",
+                     description: "Calcule a quantide de comida que irá comprar para cada tipo de festa.",
+                     backgroundColor: 0x1C1C1C) {},
+        
         ShortcutView(iconName: "x.squareroot",
                      title: "Geral",
                      description: "Calcule IMC, área, etc.",
                      backgroundColor: 0x1C1C1C) {},
-        ShortcutView(iconName: "person.3.sequence.fill",
-                     title: "CLT",
-                     description: "Faça calculos trabalhistas.",
-                     backgroundColor: 0x1C1C1C) {},
+        
     ])
 }
 
