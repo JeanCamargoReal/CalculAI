@@ -23,11 +23,7 @@ struct SplashScreenView: View {
             HomeView()
         } else {
             VStack {
-                Text("Calcul∆I")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .accessibilityAddTraits(.isHeader)
+                TitleHomeView()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.black)

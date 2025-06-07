@@ -7,11 +7,11 @@
 
 import SwiftUI
 
+/// Modelo de dados para cada atalho exibido na tela inicial.
 struct ShortcutModel: Identifiable {
     let id = UUID()
     let iconName: String
     let title: String
     let description: String?
-    let backgroundColor: Color
-    let action: () -> Void
+    let route: HomeRoute
 }
