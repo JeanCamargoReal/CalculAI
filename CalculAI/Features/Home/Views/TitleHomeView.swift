@@ -10,8 +10,8 @@ import SwiftUI
 /// Exibe título principal da tela home
 struct TitleHomeView: View {
     var body: some View {
-        Text("Calcul∆I")
-            .font(.system(size: 32, weight: .bold, design: .monospaced))
+        Text("Quanto Comprar?")
+            .font(.system(size: 32, weight: .bold, design: .default))
             .foregroundStyle(.white)
             .accessibilityAddTraits(.isHeader)
     }
